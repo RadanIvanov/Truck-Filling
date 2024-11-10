@@ -12,7 +12,7 @@ public class Main {
         pallets.add(new Container(12, 15, 12));
         palletsVolume(pallets);
 
-        // ne premahva dobre
+        /* doesn't remove well
         ArrayList<Container> palletsCopy = new ArrayList<>(pallets);
         pallets.addAll(rotateAroundX(palletsCopy));
         pallets.addAll(rotateAroundY(palletsCopy));
@@ -27,7 +27,7 @@ public class Main {
             c.print();
         }
         System.out.println();
-
+*/
         ArrayList<Container> trucks = new ArrayList<>();
         trucks.add(new Container(45, 150, 30, 0, 0, 0));
 
