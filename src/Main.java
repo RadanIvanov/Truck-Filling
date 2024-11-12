@@ -12,7 +12,7 @@ public class Main {
         pallets.add(new Container(12, 15, 12));
         palletsVolume(pallets);
 
-        /* doesn't remove well
+        /*
         ArrayList<Container> palletsCopy = new ArrayList<>(pallets);
         pallets.addAll(rotateAroundX(palletsCopy));
         pallets.addAll(rotateAroundY(palletsCopy));
